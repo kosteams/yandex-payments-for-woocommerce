@@ -1,6 +1,7 @@
 {
     "name": "kosteams/yandex-payments-for-woocommerce",
     "description": "Плагин для приема платежей через Яндекс Pay и Яндекс Сплит в WooCommerce",
+     "version": "2.0.0",
     "type": "wordpress-plugin",
     "license": "GPL-2.0-or-later",
     "authors": [

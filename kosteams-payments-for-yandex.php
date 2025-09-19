@@ -7,7 +7,7 @@
  * Version: 2.0.0
  * Requires at least: 6.0
  * Requires PHP: 8.0.0
- * Author: KosTeam
+ * Author: KosTeams
  * Author URI: https://t.me/koSteams
  * Text Domain: kosteams-payments-for-yandex
  * Domain Path: /languages
@@ -138,6 +138,25 @@ function kosteams_yandex_check_requirements(): bool {
 }
 
 /**
+ * Функция для удаления плагина
+ */
+function kosteams_yandex_uninstall() {
+    // Проверяем, загружен ли класс Plugin
+    if (!class_exists(__NAMESPACE__ . '\\Core\\Plugin')) {
+        // Пытаемся загрузить класс вручную
+        $plugin_file = KOSTEAMS_YANDEX_PATH . 'includes/Core/Plugin.php';
+        if (file_exists($plugin_file)) {
+            require_once $plugin_file;
+        } else {
+            // Если файла нет, то не можем выполнить удаление
+            return;
+        }
+    }
+    // Вызываем статический метод uninstall
+    Core\Plugin::uninstall();
+}
+
+/**
  * Инициализация плагина
  * 
  * Запускается после загрузки всех плагинов
@@ -186,9 +205,7 @@ register_deactivation_hook(KOSTEAMS_YANDEX_FILE, function () {
  * 
  * Выполняется при удалении плагина
  */
-// register_uninstall_hook(KOSTEAMS_YANDEX_FILE, function () {
-//     Core\Plugin::uninstall();
-// });
+register_uninstall_hook(KOSTEAMS_YANDEX_FILE, __NAMESPACE__ . '\\kosteams_yandex_uninstall');
 
 /**
  * Глобальная функция для доступа к контейнеру
@@ -229,7 +246,7 @@ add_filter('plugin_action_links_' . KOSTEAMS_YANDEX_BASENAME, function ($links) 
 });
 
 /**
- * Добавление мета-ссылок на странице плагинов
+ * Добавление мета-ссылки на странице плагинов
  */
 add_filter('plugin_row_meta', function ($links, $file) {
     if ($file !== KOSTEAMS_YANDEX_BASENAME) {
