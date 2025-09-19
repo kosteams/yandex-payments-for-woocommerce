@@ -1,0 +1,122 @@
+.kosteams-pro-info-container {
+    background: linear-gradient(135deg, #f8faff 0%, #f0f4ff 100%);
+    border-left: 4px solid #ff7b00;
+    margin: 20px 0;
+    border-radius: 4px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+}
+
+.kosteams-pro-info-container .pro-info-inner {
+    padding: 25px 30px;
+}
+
+.kosteams-pro-info-container .pro-info-title {
+    color: #1e1e1e;
+    margin: 0 0 15px 0;
+    font-size: 22px;
+}
+
+.kosteams-pro-info-container .pro-info-description {
+    color: #555d66;
+    font-size: 15px;
+    margin: 0 0 25px 0;
+}
+
+.kosteams-pro-info-container .pro-info-columns {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 30px;
+    margin-bottom: 30px;
+}
+
+.kosteams-pro-info-container .pro-info-column {
+    background: white;
+    padding: 20px;
+    border-radius: 6px;
+}
+
+.kosteams-pro-info-container .pro-info-column-title {
+    margin: 0 0 12px 0;
+    color: #2a4365;
+    font-size: 17px;
+}
+
+.kosteams-pro-info-container .pro-info-list {
+    margin: 0;
+    padding-left: 20px;
+    list-style: disc;
+}
+
+.kosteams-pro-info-container .pro-info-button-container {
+    display: flex;
+    gap: 15px;
+}
+
+.kosteams-pro-info-container .pro-info-button {
+    background: #ff7b00;
+    color: white !important;
+    padding: 12px 25px;
+    text-decoration: none;
+    border-radius: 4px;
+    font-weight: 500;
+    display: inline-block;
+}
+
+.kosteams-pro-info-container .pro-info-comparison {
+    margin-top: 30px;
+    padding: 20px;
+    background: #fff;
+    border-radius: 6px;
+    border: 1px solid #ccd0d4;
+}
+
+.kosteams-pro-info-container .pro-info-comparison-text {
+    margin: 0 0 10px 0;
+    color: #ff7b00;
+    font-size: 15px;
+}
+
+.kosteams-pro-info-container .pro-info-comparison-description {
+    margin: 0;
+    color: #666;
+    font-size: 14px;
+}
+
+.kosteams-notice-info {
+    border-left-color: #ff7b00;
+}
+
+.kosteams-pro-info-container .pro-info-image {
+    max-height: 15px;
+    margin-top: 10px;
+}
+
+.kosteams-pro-info-container .pro-info-support-row {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.kosteams-pro-info-container .telegram-support-link {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    padding: 12px 25px;
+    background-color: #0088cc;
+    color: white !important;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: background-color 0.3s;
+}
+
+.kosteams-pro-info-container .telegram-support-link:hover {
+    background-color: #006699;
+}
+
+.kosteams-pro-info-container .telegram-icon {
+    width: 20px;
+    height: 20px;
+    vertical-align: middle;
+}

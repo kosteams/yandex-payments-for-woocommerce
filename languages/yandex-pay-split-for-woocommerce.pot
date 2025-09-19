@@ -1,0 +1,373 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Яндекс Pay & Яндекс.Сплит for WooCommerce\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-03-11 06:24+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: \n"
+"Language: \n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Loco https://localise.biz/\n"
+"X-Loco-Version: 2.7.1; wp-6.7.2\n"
+"X-Domain: yandex-pay-split-for-woocommerce"
+
+#: includes/class-yps-gateway.php:70
+msgid "Callback URL"
+msgstr ""
+
+#: includes/class-yps-gateway.php:361
+msgid "create_payment"
+msgstr ""
+
+#: includes/class-yps-gateway.php:254
+msgid "Decoded payload:"
+msgstr ""
+
+#: includes/class-yps-gateway.php:193
+msgid "Empty input from payment system"
+msgstr ""
+
+#: includes/class-yps-gateway.php:195
+msgid "Empty input."
+msgstr ""
+
+#: includes/class-yps-gateway.php:211
+msgid "Error connecting to JWKS."
+msgstr ""
+
+#: includes/class-yps-gateway.php:220
+msgid "Error: JWKS is empty or not found"
+msgstr ""
+
+#: includes/class-yps-gateway.php:640
+#, php-format
+msgid "HTTP Error %s"
+msgstr ""
+
+#: includes/class-yps-gateway.php:623
+msgid "HTTP ответ от Яндекс.Сплит"
+msgstr ""
+
+#. Author URI of the plugin
+msgid "https://t.me/koSteams"
+msgstr ""
+
+#: includes/class-yps-gateway.php:95
+msgid "ID Ключа"
+msgstr ""
+
+#: includes/class-yps-gateway.php:203
+msgid "Input is not valid JSON. Trying to decode as JWT."
+msgstr ""
+
+#: includes/class-yps-gateway.php:258
+msgid "Invalid merchantId"
+msgstr ""
+
+#: includes/class-yps-gateway.php:262
+msgid "Invalid merchantId."
+msgstr ""
+
+#: includes/class-yps-gateway.php:172 includes/class-yps-gateway.php:174
+msgid "Invalid request method. POST expected."
+msgstr ""
+
+#: includes/class-yps-gateway.php:183
+msgid "Invalid User-Agent."
+msgstr ""
+
+#: includes/class-yps-gateway.php:181
+msgid "Invalid User-Agent. YandexPay/1.0 expected."
+msgstr ""
+
+#: includes/class-yps-gateway.php:224
+msgid "JWKS error."
+msgstr ""
+
+#: includes/class-yps-gateway.php:209
+msgid "JWKS request error: "
+msgstr ""
+
+#. Author of the plugin
+msgid "KosTeam"
+msgstr ""
+
+#: includes/class-yps-gateway.php:89
+msgid "Merchant ID для магазина"
+msgstr ""
+
+#: includes/class-yps-gateway.php:235
+msgid "No suitable public key found."
+msgstr ""
+
+#: includes/class-yps-gateway.php:259
+msgid "none"
+msgstr ""
+
+#: includes/class-yps-gateway.php:318
+msgid "Order not found"
+msgstr ""
+
+#: includes/class-yps-gateway.php:312
+msgid "Order status not changed"
+msgstr ""
+
+#: includes/class-yps-gateway.php:307
+msgid "Order status updated"
+msgstr ""
+
+#: includes/class-yps-gateway.php:295
+msgid "Partial refund."
+msgstr ""
+
+#: includes/class-yps-gateway.php:327
+msgid "process_payment"
+msgstr ""
+
+#: includes/class-yps-gateway.php:239
+msgid "Public key not found."
+msgstr ""
+
+#: includes/class-yps-gateway.php:249
+msgid "Token decoding error."
+msgstr ""
+
+#: includes/class-yps-gateway.php:247
+msgid "Token decoding error: "
+msgstr ""
+
+#: includes/class-yps-gateway.php:306
+msgid "Updated via Yandex webhook."
+msgstr ""
+
+#: includes/class-yps-gateway.php:190
+msgid "Webhook response from payment system"
+msgstr ""
+
+#: includes/class-yps-gateway.php:675
+msgid "WP error: "
+msgstr ""
+
+#: includes/class-yps-gateway.php:27 includes/class-yps-gateway.php:61
+msgid "Yandex Pay & Split"
+msgstr ""
+
+#: includes/class-yps-gateway.php:148
+msgid "Бейджи Яндекс Пэй — повышают доверие покупателей"
+msgstr ""
+
+#: includes/class-yps-gateway.php:97
+msgid "Введите ID Ключа"
+msgstr ""
+
+#: includes/class-yps-gateway.php:103
+msgid "Введите ключ."
+msgstr ""
+
+#: includes/class-yps-gateway.php:149
+msgid ""
+"Виджет оплаты — увеличивает конверсию за счет отображения условий рассрочки"
+msgstr ""
+
+#: includes/class-yps-gateway.php:54
+msgid "Включить Yandex Split"
+msgstr ""
+
+#: includes/class-yps-gateway.php:126
+msgid "Включить логирование"
+msgstr ""
+
+#: includes/class-yps-gateway.php:120
+msgid "Включить тестовый режим"
+msgstr ""
+
+#: includes/class-yps-gateway.php:52
+msgid "Включить/Выключить"
+msgstr ""
+
+#: includes/class-yps-gateway.php:146
+msgid "Вы используете базовую версию"
+msgstr ""
+
+#: includes/class-yps-gateway.php:109
+msgid "Выберите способ оплаты."
+msgstr ""
+
+#: includes/class-yps-gateway.php:147
+msgid "Для доступа к дополнительным функциям обновитесь до Премиум версии:"
+msgstr ""
+
+#: includes/class-yps-gateway.php:549
+msgid "Доставка"
+msgstr ""
+
+#: includes/class-yps-gateway.php:58
+msgid "Заголовок"
+msgstr ""
+
+#: includes/class-yps-gateway.php:330
+#, php-format
+msgid "Заказ #%s не найден."
+msgstr ""
+
+#: includes/class-yps-gateway.php:647
+msgid "Заказ уже существует в системе"
+msgstr ""
+
+#: includes/class-yps-gateway.php:113
+msgid "Карта"
+msgstr ""
+
+#: includes/class-yps-gateway.php:112
+msgid "Карта + Сплит"
+msgstr ""
+
+#: includes/class-yps-gateway.php:101
+msgid "Ключ"
+msgstr ""
+
+#: includes/class-yps-gateway.php:124
+msgid "Логгирование"
+msgstr ""
+
+#: includes/class-yps-gateway.php:60
+msgid "Название, отображаемое пользователю."
+msgstr ""
+
+#: yandex-pay-split.php:130
+msgid "Настройки"
+msgstr ""
+
+#: includes/class-yps-gateway.php:336
+#, php-format
+msgid "Начало обработки заказа #%s"
+msgstr ""
+
+#: includes/class-yps-gateway.php:581
+msgid "Неизвестная ошибка"
+msgstr ""
+
+#: includes/class-yps-gateway.php:64
+msgid "Описание"
+msgstr ""
+
+#: includes/class-yps-gateway.php:66
+msgid "Описание, отображаемое при оплате."
+msgstr ""
+
+#: includes/class-yps-gateway.php:67
+msgid ""
+"Оплата картой (Yandex Pay), рассрочкой (Яндекс.Сплит) или их комбинацией. "
+"Первый платеж картой, остальное — частями."
+msgstr ""
+
+#: includes/class-yps-gateway.php:562
+msgid "Отправка запроса на создание платежа"
+msgstr ""
+
+#: includes/class-yps-gateway.php:665
+msgid "Отправлен HTTP запрос к Яндекс.Сплит"
+msgstr ""
+
+#: includes/class-yps-gateway.php:633
+msgid "Ошибка API"
+msgstr ""
+
+#: includes/class-yps-gateway.php:577 includes/class-yps-gateway.php:581
+msgid "Ошибка API: "
+msgstr ""
+
+#: includes/class-yps-gateway.php:572
+msgid "Ошибка API: Заказ уже существует, но paymentUrl не найден."
+msgstr ""
+
+#: includes/class-yps-gateway.php:346
+msgid "Ошибка при создании платежа!"
+msgstr ""
+
+#: includes/class-yps-gateway.php:347
+msgid "Ошибка при создании платежа. Проверьте настройки API ключа."
+msgstr ""
+
+#: includes/class-yps-gateway.php:331
+msgid "Ошибка: Заказ не найден."
+msgstr ""
+
+#: includes/class-yps-gateway.php:588
+msgid "Ошибка: Отсутствует paymentUrl в ответе API."
+msgstr ""
+
+#: includes/class-yps-gateway.php:363
+msgid "Передан некорректный объект заказа."
+msgstr ""
+
+#: includes/class-yps-gateway.php:151
+msgid "Перейти на Премиум"
+msgstr ""
+
+#: includes/class-yps-gateway.php:371
+#, php-format
+msgid "Платеж уже создан для заказа #%s. Используем сохраненный paymentUrl."
+msgstr ""
+
+#: includes/class-yps-gateway.php:351
+msgid "Платёж создан в Яндекс.Сплит."
+msgstr ""
+
+#: includes/class-yps-gateway.php:135
+msgid "Премиум функции"
+msgstr ""
+
+#: includes/class-yps-gateway.php:28
+msgid ""
+"Принимайте оплату через Yandex Pay, Яндекс.Сплит или их комбинацию. "
+"Увеличьте конверсию за счет гибких способов оплаты."
+msgstr ""
+
+#. Description of the plugin
+msgid "Принимайте платежи через Yandex Pay или Яндекс.Сплит."
+msgstr ""
+
+#: yandex-pay-split.php:160
+msgid "Сайт плагина"
+msgstr ""
+
+#: includes/class-yps-gateway.php:114
+msgid "Сплит"
+msgstr ""
+
+#: includes/class-yps-gateway.php:107
+msgid "Способ оплаты"
+msgstr ""
+
+#: includes/class-yps-gateway.php:118
+msgid "Тестовый режим"
+msgstr ""
+
+#: includes/class-yps-gateway.php:74
+#, php-format
+msgid ""
+"Укажите следующий URL в <a href=\"%s\" target=\"_blank\">личном кабинете "
+"Yandex</a> в качестве Callback URL: <strong><code>%s</code></strong>"
+msgstr ""
+
+#: yandex-pay-split.php:137
+msgid "Улучшить до Премиум"
+msgstr ""
+
+#: includes/class-yps-gateway.php:91
+msgid "Уникальный идентификатор магазина для подключения Яндекс Пэй со Сплитом"
+msgstr ""
+
+#: includes/class-yps-gateway.php:598
+msgid "Успешный ответ от API"
+msgstr ""
+
+#. Name of the plugin
+msgid "Яндекс Pay & Яндекс.Сплит for WooCommerce"
+msgstr ""
